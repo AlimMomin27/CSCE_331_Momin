@@ -6,17 +6,38 @@ body{
     height: 15rem;
     z-index: 0;
 }
-/* .button-list:hover{
-    background-color: gray;
-} */
-.button-list:hover .links{
-    position: relative;
-    margin-left: 2rem;
-    background-color: black;
+.button-list:hover{
+    transition: all 1s ease-in-out;
 }
+.button-list:hover #home{
+    transition: 2s;
+    position: relative;
+    margin-left: 1rem;
+}
+.button-list:hover #techPort{
+    transition: 1s;
+    position: fixed;
+    margin-left: 1rem;
+}
+.button-list:hover #qualif{
+    transition: 2s;
+    position: fixed;
+    margin-left: 14rem;
+}
+.button-list:hover #services{
+    transition: 2s;
+    position: fixed;
+    margin-left: 27rem;
+}
+.button-list:hover #chatGPT{
+    transition: 2s;
+    position: fixed;
+    margin-left: 40rem;
+}
+
 .links{
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     word-wrap:normal;
     border-radius: 50%;    
 }
@@ -33,6 +54,7 @@ body{
     z-index: 5;
 }
 #home:hover{
+    transition: 2s;
     background-color: #ff5630;
 }
 #techPort{
@@ -41,6 +63,7 @@ body{
     z-index: 4;
 }
 #techPort:hover{
+    transition: 2s;
     background-color: #ffab00;
     z-index: 10;
 }
@@ -50,6 +73,7 @@ body{
     z-index: 3;
 }
 #qualif:hover{
+    transition: 2s;
     background-color: #36b37e;
     z-index: 10;
 }
@@ -59,6 +83,7 @@ body{
     z-index: 2;
 }
 #services:hover{
+    transition: 2s;
     background-color: #00b8d9;
     z-index: 10;
 }
@@ -68,6 +93,7 @@ body{
     z-index: 1;
 }
 #chatGPT:hover{
+    transition: 2s;
     background-color: #6554c0;
     z-index: 10;
 }
